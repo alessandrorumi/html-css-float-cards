@@ -4,13 +4,19 @@
   box-sizing: border-box;
 }
 
+h1 {
+  text-align: center;
+}
 
+p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 .container {
   width: 60%;
   margin: 20px auto;
   min-height: 800px;
-  background-color: grey;
 }
 
 .container::after {
@@ -24,7 +30,17 @@
   width: calc(100% / 3);
   height: 80px;
   /* debugging con colori */
-  background-color: lightgreen;
+  background-color: rgb(1, 1, 26);
   border: 2px solid lightcoral;
   margin-bottom: 60px;
+}
+
+img {
+  height: 100%;
+  float: left;
+  margin-right: 10px;
+}
+
+.test {
+  color: azure;
 }
