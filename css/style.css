@@ -28,7 +28,7 @@ p {
 .element {
   float: left;
   width: calc(100% / 3);
-  height: 80px;
+  height: 100px;
   /* debugging con colori */
   background-color: rgb(1, 1, 26);
   border: 2px solid lightcoral;
@@ -41,6 +41,7 @@ img {
   margin-right: 10px;
 }
 
-.test {
+.element > div {
   color: azure;
+  margin-top: 10px;
 }
