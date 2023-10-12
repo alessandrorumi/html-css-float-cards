@@ -34,9 +34,7 @@ p {
   height: 100px;
   /* debugging con colori */
   background-color: rgb(1, 1, 26);
-  margin-bottom: 60px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0 20px 60px 20px;
 }
 
 img {
@@ -47,7 +45,7 @@ img {
 
 .element > div {
   color: azure;
-  margin-top: 10px;
+  margin: 10px;
 }
 
 .element > .mail {
