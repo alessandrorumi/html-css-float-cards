@@ -1,4 +1,30 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  width: 60%;
+  margin: 20px auto;
+  min-height: 800px;
+  background-color: grey;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.element {
+  float: left;
+  width: calc(100% / 3);
+  height: 80px;
+  /* debugging con colori */
+  background-color: lightgreen;
+  border: 2px solid lightcoral;
+  margin-bottom: 60px;
 }
