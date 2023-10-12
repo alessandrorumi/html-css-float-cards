@@ -2,8 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Gabarito', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Fredoka', sans-serif;
 }
 
 h1 {
@@ -52,5 +51,9 @@ img {
 }
 
 .element > .mail {
-  color: rgb(3, 108, 255);
+  color: rgb(109, 168, 252);
+}
+
+.name {
+  font-weight: 700;
 }
