@@ -2,19 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Gabarito', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
   text-align: center;
+  color: rgb(240, 23, 150);
 }
 
 p {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .container {
-  width: 60%;
+  width: 80%;
   margin: 20px auto;
   min-height: 800px;
 }
@@ -27,12 +31,13 @@ p {
 
 .element {
   float: left;
-  width: calc(100% / 3);
+  width: calc((100% / 3) - 40px);
   height: 100px;
   /* debugging con colori */
   background-color: rgb(1, 1, 26);
-  border: 2px solid lightcoral;
   margin-bottom: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 img {
@@ -44,4 +49,8 @@ img {
 .element > div {
   color: azure;
   margin-top: 10px;
+}
+
+.element > .mail {
+  color: rgb(3, 108, 255);
 }
