@@ -32,9 +32,9 @@ p {
   float: left;
   width: calc((100% / 3) - 40px);
   height: 100px;
-  /* debugging con colori */
   background-color: rgb(1, 1, 26);
   margin: 0 20px 60px 20px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7)
 }
 
 img {
