@@ -37,10 +37,15 @@ p {
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7)
 }
 
+.element-right {
+  float: left;
+  height: calc(100% - 20px);
+}
+
 img {
   height: 100%;
-  float: left;
   margin-right: 10px;
+  float: left;
 }
 
 .element > div {
@@ -48,10 +53,15 @@ img {
   margin: 10px;
 }
 
-.element > .mail {
+.element .mail {
   color: rgb(109, 168, 252);
 }
 
 .name {
   font-weight: 700;
+  margin: 4px 0;
+}
+
+.job {
+  margin: 6px 0;
 }
